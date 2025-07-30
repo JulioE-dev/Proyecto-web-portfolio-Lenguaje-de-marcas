@@ -235,7 +235,7 @@ body {
 
 .SOBRE-MI h2 {
   color: #1CB698;
-  font-size: 50px;
+  font-size: 40px;
   font-family: 'Orbitron', sans-serif;
   text-align: center;
   padding: 20px 0;
@@ -260,7 +260,7 @@ body {
 
 .FORMACION h2 {
   color: #1CB698;
-  font-size: 50px;
+  font-size: 40px;
   font-family: 'Orbitron', sans-serif;
   text-align: center;
   padding: 20px 0;
@@ -316,7 +316,7 @@ body {
 
 .TRAYECTORIA h2 {
   color: #1CB698;
-  font-size: 50px;
+  font-size: 40px;
   font-family: 'Orbitron', sans-serif;
   text-align: center;
   padding: 20px 0;
@@ -356,7 +356,7 @@ body {
 
 .HOBBIES h2 {
   color: #1CB698;
-  font-size: 50px;
+  font-size: 40px;
   font-family: 'Orbitron', sans-serif;
   text-align: center;
   padding: 20px 0;
@@ -419,7 +419,7 @@ body {
 
 .PROYECTOS h2 {
   color: #1CB698;
-  font-size: 50px;
+  font-size: 40px;
   font-family: 'Orbitron', sans-serif;
   text-align: center;
   padding: 20px 0;
@@ -470,7 +470,7 @@ body {
 
 .CONTACTO h2 {
   color: #1CB698;
-  font-size: 50px;
+  font-size: 40px;
   font-family: 'orbitron', sans-serif;
   text-align: center;
   padding: 20px 0;
@@ -522,4 +522,19 @@ body {
 
 .form-contacto button:hover {
   background-color: #148d79;
+}
+
+@media (max-width: 480px) {
+  h2 {
+    text-align: center !important;
+    font-size: 24px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: block;
+    max-width: 90%;
+  }
+
+  .seccion {
+    padding: 80px 15px 40px;
+  }
 }
