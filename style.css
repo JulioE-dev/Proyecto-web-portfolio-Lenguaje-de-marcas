@@ -531,7 +531,7 @@ body {
     margin-left: auto !important;
     margin-right: auto !important;
     display: block;
-    max-width: 90%;
+    max-width: 120% !important;
   }
 
   .seccion {
