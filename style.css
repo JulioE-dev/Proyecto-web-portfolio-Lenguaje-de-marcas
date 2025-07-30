@@ -1,3 +1,5 @@
+/* FUENTES */
+
 @font-face {
   font-family: 'Ibm Plex Mono';
   src: url('assets/fonts/IBMPlexMono-Regular.ttf') format('truetype');
@@ -23,7 +25,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Work Sans', sans-serif;
+  font-family: 'shareTechMono', sans-serif;
 }
 
 html {
@@ -72,7 +74,7 @@ body {
     padding: 1rem;
   }
 
-    /* MOSTAR MENÚ CUANDO CHECKBOX ESTÁ ACTIVO */
+/* MOSTAR MENÚ CUANDO CHECKBOX ESTÁ ACTIVO */
 
   .toggle-menu:checked ~ #nav ul {
     display: flex;
@@ -82,7 +84,7 @@ body {
     display: block;
   }
 
-  /* ALINEAR MENÚ CON ICONO */
+/* ALINEAR MENÚ CON ICONO */
 
   header {
     display: flex;
@@ -256,7 +258,7 @@ body {
 
 /* SECCIÓN EXPERIENCIA ACADÉMICA */
 
-.EXPERIENCIA-ACADÉMICA h2 {
+.FORMACIÓN h2 {
   color: #1CB698;
   font-size: 50px;
   font-family: 'Orbitron', sans-serif;
@@ -265,7 +267,7 @@ body {
   place-items: center;
 }
 
-.EXPERIENCIA-ACADÉMICA h3 {
+.FORMACIÓN h3 {
   color: #68d2bd;
   font-size: 20px;
   font-family: 'Ibm Plex Mono', monospace;
@@ -273,13 +275,13 @@ body {
   padding: 20px 0;
 }
 
-.EXPERIENCIA-ACADÉMICA .contenido-seccion {
+.FORMACIÓN .contenido-seccion {
   display: grid;
   grid-template-columns: repeat(2, 1fr, 2); 
   gap: 20px; 
 }
 
-.EXPERIENCIA-ACADÉMICA .contenido-seccion p {
+.FORMACIÓN .contenido-seccion p {
   color: #fafafa;
   text-align: center;
   padding: 30px;
@@ -289,19 +291,19 @@ body {
   text-align: justify;
 }
 
-.EXPERIENCIA-ACADÉMICA .contenido-seccion p b {
+.FORMACIÓN .contenido-seccion p b {
   color: #1CB698;
   font-weight: bold;
   text-align: center;
 }
 
-.EXPERIENCIA-ACADÉMICA .contenido-seccion li {
+.FORMACIÓN .contenido-seccion li {
   color: #feffff;
   font-weight: bold;
   text-align: center;
 }
 
-.EXPERIENCIA-ACADÉMICA img {
+.FORMACIÓN img {
   display: block;
   width: 15%;
   margin: 0 auto 15px auto;
@@ -310,9 +312,9 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
 
-/* EXPERIENCIA LABORAL */
+/* SECCIÓN TRAYECTORIA */
 
-.EXPERIENCIA-LABORAL h2 {
+.TRAYECTORIA h2 {
   color: #1CB698;
   font-size: 50px;
   font-family: 'Orbitron', sans-serif;
@@ -320,7 +322,7 @@ body {
   padding: 20px 0;
 }
 
-.EXPERIENCIA-LABORAL h3 {
+.TRAYECTORIA h3 {
   color: #68d2bd;
   font-size: 20px;
   font-family: 'Ibm Plex Mono', monospace;
@@ -328,7 +330,7 @@ body {
   padding: 20px 0;
 }
 
-.EXPERIENCIA-LABORAL .contenido-seccion p {
+.TRAYECTORIA .contenido-seccion p {
   color: #fafafa;
   text-align: center;
   padding: 30px;
@@ -338,13 +340,13 @@ body {
   text-align: justify;
 }
 
-.EXPERIENCIA-LABORAL .contenido-seccion p b {
+.TRAYECTORIA .contenido-seccion p b {
   color: #1CB698;
   font-weight: bold;
   text-align: center;
 }
 
-.EXPERIENCIA-LABORAL .contenido-seccion li {
+.TRAYECTORIA .contenido-seccion li {
   color: #feffff;
   font-weight: bold;
   text-align: center;
@@ -509,7 +511,7 @@ body {
 .form-contacto button {
   background-color: #1CB698;
   color: #fff;
-  font-family: 'Ibm Plex Mono', cursive;
+  font-family: 'ibm Plex Mono', Arial, sans-serif;
   font-size: 22px;
   padding: 12px;
   border: none;
