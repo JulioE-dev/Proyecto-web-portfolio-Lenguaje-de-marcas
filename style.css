@@ -258,7 +258,7 @@ body {
 
 /* SECCIÓN EXPERIENCIA ACADÉMICA */
 
-.FORMACIÓN h2 {
+.FORMACION h2 {
   color: #1CB698;
   font-size: 50px;
   font-family: 'Orbitron', sans-serif;
@@ -267,7 +267,7 @@ body {
   place-items: center;
 }
 
-.FORMACIÓN h3 {
+.FORMACION h3 {
   color: #68d2bd;
   font-size: 20px;
   font-family: 'Ibm Plex Mono', monospace;
@@ -275,13 +275,13 @@ body {
   padding: 20px 0;
 }
 
-.FORMACIÓN .contenido-seccion {
+.FORMACION .contenido-seccion {
   display: grid;
   grid-template-columns: repeat(2, 1fr, 2); 
   gap: 20px; 
 }
 
-.FORMACIÓN .contenido-seccion p {
+.FORMACION .contenido-seccion p {
   color: #fafafa;
   text-align: center;
   padding: 30px;
@@ -291,19 +291,19 @@ body {
   text-align: justify;
 }
 
-.FORMACIÓN .contenido-seccion p b {
+.FORMACION .contenido-seccion p b {
   color: #1CB698;
   font-weight: bold;
   text-align: center;
 }
 
-.FORMACIÓN .contenido-seccion li {
+.FORMACION .contenido-seccion li {
   color: #feffff;
   font-weight: bold;
   text-align: center;
 }
 
-.FORMACIÓN img {
+.FORMACION img {
   display: block;
   width: 15%;
   margin: 0 auto 15px auto;
