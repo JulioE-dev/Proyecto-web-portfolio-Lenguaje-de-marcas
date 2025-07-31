@@ -290,7 +290,6 @@ body {
 
 .FORMACION .contenido-seccion {
   display: grid;
-  grid-template-columns: repeat(2, 1fr, 2); 
   gap: 20px; 
   list-style: none;
 }
@@ -302,11 +301,11 @@ body {
   font-size: 18px;
   line-height: 20px;
   margin-bottom: 15px;
-  text-align: justify;
+  text-align: center;
 }
 
 .FORMACION .contenido-seccion p b {
-  color: #1CB698;
+  color: #1CB698 !important;
   font-weight: bold;
   text-align: center;
 }
@@ -316,6 +315,7 @@ body {
   font-weight: bold;
   text-align: center;
 }
+
 
 .FORMACION img {
   display: block;
@@ -344,6 +344,12 @@ body {
   padding: 20px 0;
 }
 
+.TRAYECTORIA .contenido-seccion p b {
+  color: #1CB698 !important;
+  font-weight: bold;
+  text-align: center;
+}
+
 .TRAYECTORIA .contenido-seccion p {
   color: #fafafa;
   text-align: center;
@@ -354,14 +360,8 @@ body {
   text-align: justify;
   }
 
-.TRAYECTORIA .contenido-seccion p b {
-  color: #1CB698;
-  font-weight: bold;
-  text-align: center;
-  }
-
-.TRAYECTORIA .contenido-seccion li {
-  color: #feffff;
+  .TRAYECTORIA .contenido-seccion li {
+  color: #fff;
   font-weight: bold;
   text-align: center;
   list-style: none;
