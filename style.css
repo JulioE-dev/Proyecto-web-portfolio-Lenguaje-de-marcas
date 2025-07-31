@@ -225,6 +225,7 @@ body {
   height: auto;
   display: block;
   margin: 0 auto;
+  border-radius: 50px;
 }
 
 .REDES {
@@ -268,7 +269,7 @@ body {
   font-weight: bold;
 }
 
-/* SECCIÓN EXPERIENCIA ACADÉMICA */
+/* SECCIÓN FORMACIÓN */
 
 .FORMACION h2 {
   color: #1CB698;
@@ -291,6 +292,7 @@ body {
   display: grid;
   grid-template-columns: repeat(2, 1fr, 2); 
   gap: 20px; 
+  list-style: none;
 }
 
 .FORMACION .contenido-seccion p {
@@ -350,18 +352,19 @@ body {
   line-height: 20px;
   margin-bottom: 15px;
   text-align: justify;
-}
+  }
 
 .TRAYECTORIA .contenido-seccion p b {
   color: #1CB698;
   font-weight: bold;
   text-align: center;
-}
+  }
 
 .TRAYECTORIA .contenido-seccion li {
   color: #feffff;
   font-weight: bold;
   text-align: center;
+  list-style: none;
 }
 
 /* SECCIÓN HOBBIES */
@@ -549,6 +552,16 @@ body {
   .seccion {
     padding: 80px 15px 40px;
   }
+}
+
+/* FOOTER */
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #0e3c56;
+  color: #fffbfb;
+  font-size: 14px;
 }
 
 .cookie-popup {
