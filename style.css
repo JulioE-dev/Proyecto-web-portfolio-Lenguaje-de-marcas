@@ -303,7 +303,7 @@ body {
   margin-bottom: 15px;
  }
 
-.FORMACION .contenido-seccion p b {
+.FORMACION .contenido-seccion b {
   color: #1CB698 !important;
   font-weight: bold;
   text-align: center;
@@ -343,7 +343,7 @@ body {
   padding: 20px 0;
 }
 
-.TRAYECTORIA .contenido-seccion p b {
+.TRAYECTORIA .contenido-seccion b {
   color: #1CB698 !important;
   font-weight: bold;
   text-align: center;
@@ -359,7 +359,7 @@ body {
   text-align: justify;
   }
 
-  .TRAYECTORIA .contenido-seccion li {
+.TRAYECTORIA .contenido-seccion li {
   color: #fff;
   font-weight: bold;
   text-align: center;
