@@ -264,7 +264,7 @@ body {
   text-align: justify;
 }
 
-.SOBRE-MI .contenido-seccion p b {
+.SOBRE-MI .contenido-seccion p strong {
   color: #1CB698;
   font-weight: bold;
 }
@@ -303,7 +303,7 @@ body {
   margin-bottom: 15px;
  }
 
-.FORMACION .contenido-seccion b {
+.FORMACION .contenido-seccion strong {
   color: #1CB698 !important;
   font-weight: bold;
   text-align: center;
@@ -343,7 +343,7 @@ body {
   padding: 20px 0;
 }
 
-.TRAYECTORIA .contenido-seccion b {
+.TRAYECTORIA .contenido-seccion strong {
   color: #1CB698 !important;
   font-weight: bold;
   text-align: center;
@@ -416,7 +416,7 @@ body {
   padding: 0 10px 15px;
 }
 
-.HOBBY p b {
+.HOBBY p strong {
   color: #1CB698;
   font-weight: bold;
 }
@@ -473,7 +473,7 @@ body {
   margin-bottom: 15px;
 }
 
-.PROYECTOS .contenido-seccion p b {
+.PROYECTOS .contenido-seccion p strong {
   color: #1CB698;
   font-weight: bold;
 }
